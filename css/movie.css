@@ -1,0 +1,117 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#Banner{
+	
+	background-image: url("images/rancidbannerbg.png");
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+#layout {
+	padding-bottom: 20px;
+	background-image: url("images/moviebg.png");
+}
+#goback{
+	float:right;
+}
+#block {
+	display: block;
+	background-color:#A2B964;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 5px 5px 5px ;
+	margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+#SubBanner {
+	color: red;
+	font-size: 48pt;
+	background-image: url("images/rottenlargebg.png");
+	background-repeat: repeat-x;
+
+}
+
+#SubBanner img {
+	float: left;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 24pt;
+	font-weight: bold;
+	color:black;
+	text-shadow: 3px 3px #999999;
+	text-align: center;
+}
+h1 img{
+	clear:both;
+	float:right;
+	 position: fixed; top:50px; right:0;
+}
+
+
+#LeftSection{float :left;width :550px; background-color: #EEEEEE;}
+#dialog {  width:47%; float:left;}
+#dialog2{  width:47%; float:right;}
+
+#dialog p.words{
+  	font-family:Georgia, "Times New Roman", sans-serif;
+  	font-size: 10pt;
+	border:2px solid #CCCCCC;
+	border-radius: 20px;
+	background-color:white;
+	padding:8px;
+	margin-left: 10px;
+	text-align: left;
+
+}
+#dialog2 p.words{
+  	font-family:Georgia, "Times New Roman", sans-serif;
+  	font-size: 10pt;
+	border:2px solid #CCCCCC;
+	border-radius: 20px;
+	background-color:white;
+	padding:8px;
+	margin-right: 10px;
+	text-align: left;
+
+}
+
+#dialog img{
+	float:left;
+}
+#dialog2 img{
+	float:left;
+}
+#dialog2 p.person{
+  	font-family:Georgia, "Times New Roman", sans-serif;
+
+}
+#dialog p.person{
+  	font-family:Georgia, "Times New Roman", sans-serif;
+	margin:10px;
+
+}
+
+#right {
+	float:right;
+	width:250px;
+	font-size: 10pt;
+	font-family: Arial, Helvetica , sans-serif;
+}
+
+#end {
+	font-family: Arial, Helvetica , sans-serif;
+	clear: both;
+	text-align: center;
+	vertical-align: bottom;
+	font-size: 10pt;
+	padding: 10px;
+}
+dt {
+	margin-left: 10pt;
+	font-weight: bold;
+}

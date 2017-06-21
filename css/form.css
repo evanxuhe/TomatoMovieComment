@@ -1,0 +1,101 @@
+
+/*///// style for the body elements /////*/
+
+body {
+	background-image: url("../images/moviebg.png");
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Top banner */
+
+#banner {
+	background-image: url("../images/rancidbannerbg.png");
+	background-repeat: repeat;
+	text-align: center;
+}
+
+/*///// heading title /////*/
+
+h1 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 32pt;
+	font-weight: bold;
+	/* text-shadow: 3px 3px #999999; */
+	text-align: center;
+}
+
+/*///// Content page /////*/
+
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 800px;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #A2B964;
+}
+
+/*///// Footer /////*/
+
+#footer {
+	background-image: url("../images/rancidbannerbg.png");
+	color: #DDE2D2;
+	font-weight: bold;
+	background-repeat: repeat-x;
+	width: 100%;
+	text-align: right;
+	padding: 5px;
+}
+
+#footer img {
+	vertical-align: middle;
+}
+
+/*///// Form /////*/ 
+
+form {
+	padding: 20px;
+	font-size: 11pt;
+}
+
+form div {
+	text-align: center;
+	/*font-size:16px;*/
+	font-size: 150%;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+label {
+    width:110px;
+    float:left;
+    /*font-size:12px;*/
+   	font-size: 120%;
+    line-height:24px;
+    font-weight:bold;
+
+}
+
+input {
+    width:300px;
+    margin-bottom:5px;
+    line-height:18px;
+    padding:5px 10px;
+    border-radius: 5px;
+    border:1px solid #CCC;
+}
+
+input[type="radio"] {
+	width:0px;
+}
+
+#sumit {
+	text-align: center;
+	
+}
